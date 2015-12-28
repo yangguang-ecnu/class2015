@@ -19,6 +19,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RecursiveTest", "RecursiveT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToe", "TicTacToe\TicTacToe.vcxproj", "{BEBC5BF1-5836-4743-8A4D-0C6FC8BC5732}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainerTest", "ContainerTest\ContainerTest.vcxproj", "{14BF178A-8B13-4766-9B3C-54C2FB0A6ECF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToeWin", "TicTacToeWin\TicTacToeWin.vcxproj", "{B9D0AF51-E226-42E3-91EC-0E3A830DBCBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialogBasedDemo", "DialogBasedDemo\DialogBasedDemo.vcxproj", "{78E5A90C-C669-41FC-9954-076EA443DB1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToeDialog", "TicTacToeDialog\TicTacToeDialog.vcxproj", "{7DFCF55B-C543-4E60-970C-2F21B2FCC6F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +65,22 @@ Global
 		{BEBC5BF1-5836-4743-8A4D-0C6FC8BC5732}.Debug|Win32.Build.0 = Debug|Win32
 		{BEBC5BF1-5836-4743-8A4D-0C6FC8BC5732}.Release|Win32.ActiveCfg = Release|Win32
 		{BEBC5BF1-5836-4743-8A4D-0C6FC8BC5732}.Release|Win32.Build.0 = Release|Win32
+		{14BF178A-8B13-4766-9B3C-54C2FB0A6ECF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14BF178A-8B13-4766-9B3C-54C2FB0A6ECF}.Debug|Win32.Build.0 = Debug|Win32
+		{14BF178A-8B13-4766-9B3C-54C2FB0A6ECF}.Release|Win32.ActiveCfg = Release|Win32
+		{14BF178A-8B13-4766-9B3C-54C2FB0A6ECF}.Release|Win32.Build.0 = Release|Win32
+		{B9D0AF51-E226-42E3-91EC-0E3A830DBCBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B9D0AF51-E226-42E3-91EC-0E3A830DBCBA}.Debug|Win32.Build.0 = Debug|Win32
+		{B9D0AF51-E226-42E3-91EC-0E3A830DBCBA}.Release|Win32.ActiveCfg = Release|Win32
+		{B9D0AF51-E226-42E3-91EC-0E3A830DBCBA}.Release|Win32.Build.0 = Release|Win32
+		{78E5A90C-C669-41FC-9954-076EA443DB1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78E5A90C-C669-41FC-9954-076EA443DB1B}.Debug|Win32.Build.0 = Debug|Win32
+		{78E5A90C-C669-41FC-9954-076EA443DB1B}.Release|Win32.ActiveCfg = Release|Win32
+		{78E5A90C-C669-41FC-9954-076EA443DB1B}.Release|Win32.Build.0 = Release|Win32
+		{7DFCF55B-C543-4E60-970C-2F21B2FCC6F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7DFCF55B-C543-4E60-970C-2F21B2FCC6F4}.Debug|Win32.Build.0 = Debug|Win32
+		{7DFCF55B-C543-4E60-970C-2F21B2FCC6F4}.Release|Win32.ActiveCfg = Release|Win32
+		{7DFCF55B-C543-4E60-970C-2F21B2FCC6F4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

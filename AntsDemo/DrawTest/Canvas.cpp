@@ -2,6 +2,7 @@
 #include "Canvas.h"
 
 #include <iostream>
+#include <set>
 
 using namespace std;
 
