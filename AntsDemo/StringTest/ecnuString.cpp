@@ -3,6 +3,7 @@
 #include "ecnuString.h"
 #include <string.h>
 #include <assert.h>
+#include <xutility>
 
 namespace ecnu{
 
@@ -32,7 +33,22 @@ string::~string()
 		delete[] _buffer;
 	}
 }
+string string::operator+=(const string& rhs)
+{
+	char * olddata = _buffer;
+	_buffer_size += rhs._buffer_size;
+	_buffer = new char[_buffer_size + 1];
+	if (rhs._buffer != '\0')
+	{
+		strcpy(_buffer, olddata);
+	}
+	else
+			_buffer = '\0';
+	strcat(_buffer, rhs._buffer);
+	delete[] olddata;
+	return *this;
 
+}
 string string::operator+(const string& rhs)
 {
 	string result;
