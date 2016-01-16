@@ -17,6 +17,7 @@ namespace ecnu{
 
 		const string& operator = (const string& rhs);
 		string operator + (const string& rhs);
+		string operator += (const string& rhs);
 		bool operator==(const string& rhs);
 
 		char& operator[](int index);

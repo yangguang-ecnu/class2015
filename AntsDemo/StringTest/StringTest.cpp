@@ -46,9 +46,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	ecnu::string str2 = str1;
 	ecnu::string str3 = "!";
 
-	str1 = (str2 = str3);
+	//str1 = (str2 = str3);
+	str1 += str3;
+	std::cout << str1;
 	str1 = (str2 + str3);
 
 	std::cout << ecnu::string("Hello" + str2 + str3).GetLength();
+	return 0;
 }
 
